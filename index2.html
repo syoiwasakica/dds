@@ -102,9 +102,21 @@ $(".accordion01 dt").click(function(){
 
 html {
   max-width: 1000px;
+  margin: auto;
+  background-color: #fed900;
 }
 p {
   font-size: 4vw;
+}
+@media (max-width:320px) {
+  ul.add li{
+    font-size: 2.5vw;
+  }
+}
+@media (min-width:320px) {
+  footer {
+    display: none;
+  }
 }
 @media (min-width:550px) {
   p {
